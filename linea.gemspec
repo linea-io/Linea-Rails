@@ -5,7 +5,7 @@ require 'linea/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "linea"
-  spec.version       = Linea::VERSION
+  spec.version       = Linea::Rails::VERSION
   spec.authors       = ["Benjamin sigidi"]
   spec.email         = ["vezu@sigididesign.com"]
   spec.summary       = %q{Linea is a collection of modern icons.}
