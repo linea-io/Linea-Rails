@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'linea/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "linea-rails"
-  spec.version       = Linea::Rails::VERSION
+  spec.name          = "linea"
+  spec.version       = Linea::VERSION
   spec.authors       = ["Benjamin sigidi"]
   spec.email         = ["vezu@sigididesign.com"]
   spec.summary       = %q{Linea is a collection of modern icons.}
