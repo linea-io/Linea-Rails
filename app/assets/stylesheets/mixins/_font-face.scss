@@ -1,0 +1,10 @@
+@mixin icon-font-face($font-family, $file-path) {
+  font-family: $font-family;
+    src: font-url('#{$file-path}#{$font-family}.eot');
+    src: font-url('#{$file-path}#{$font-family}.eot?#iefix') format('embedded-opentype'),
+         font-url('#{$file-path}#{$font-family}.woff') format('woff'),
+         font-url('#{$file-path}#{$font-family}.ttf') format('truetype'),
+         font-url('#{$file-path}#{$font-family}.svg##{$font-family}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
