@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'linea/rails/version'
+require 'linea/linea/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "linea-rails"
   spec.version       = Linea::Rails::VERSION
   spec.authors       = ["Benjamin sigidi"]
   spec.email         = ["vezu@sigididesign.com"]
-  spec.summary       = %q{Linea Iconset a free outline iconset featuring 730+ Icons.}
-  spec.description   = %q{Linea Iconset a free outline iconset featuring 730+ Icons.}
-  spec.homepage      = ""
+  spec.summary       = %q{Linea is a collection of modern icons.}
+  spec.description   = %q{Linea Iconset is a free outline iconset featuring 730+ Icons.}
+  spec.homepage      = "https://www.moozen.com"
   spec.license       = "CC0"
 
   spec.files         = `git ls-files -z`.split("\x0")
