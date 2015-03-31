@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["vezu@sigididesign.com"]
   spec.summary       = %q{Linea is a collection of modern icons.}
   spec.description   = %q{Linea Iconset is a free outline iconset featuring 730+ Icons.}
-  spec.homepage      = "https://www.moozen.com"
+  spec.homepage      = "http://www.linea.io"
   spec.license       = "CC0"
 
   spec.files         = `git ls-files -z`.split("\x0")
