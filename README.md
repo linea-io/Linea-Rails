@@ -12,7 +12,7 @@ allow you to use the icons on your  Rails application
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'linea-rails'
+gem 'linea'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install linea-rails
+    $ gem install linea
 
 ## Usage
 
