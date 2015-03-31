@@ -12,7 +12,7 @@ allow you to use the icons on your  Rails application
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'linea-rails'
+gem 'linea'
 ```
 
 And then execute:
