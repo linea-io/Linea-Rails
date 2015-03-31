@@ -21,7 +21,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install linea-rails
+    $ gem install linea
 
 ## Usage
 
